@@ -1,18 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bookstore
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![bookstore](https://user-images.githubusercontent.com/38649067/171750393-730d2f46-29e9-47ae-9b99-cfde960d640b.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTMl
+- CSS
+- JAVASCRIPT
+- REACT
+- REDUX
+
+
+## Technologies used
+- Github
+- GitFlow
+- Visual Studio Code
+- webpack
+- npm
+- netlify deployment
 
 ## Live Demo
 
@@ -28,33 +39,48 @@ Additional description about the project and its features.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- NodeJs
+- Web Browser
+- Internet connection
+- Code editor: Vscode or Sublime Text
 
-### Setup
 
 ### Install
 
-### Usage
+**Clone the repository**
+```
+git clone https://github.com/mandelatuks/bookstore-website.git
+```
+**Install NPM packages**
+```
+npm install
+```
+
+**Run server**
+~~~
+npm start
+~~~
+
 
 ### Run tests
+```
+npm test
+```
+- Launches the test runner in the interactive watch mode.
+See the section about [running tests](https://create-react-app.dev/docs/running-tests/) for more information.
 
-### Deployment
 
+### Learn More
+You can learn more in the [Create React App documentation](https://reactjs.org/docs/getting-started.html).
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mandela T**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@mandelatuks](https://github.com/mandelatuks)
+- Twitter: [@MandelaTm1](https://twitter.com/MandelaTm1)
+- LinkedIn: [@Mandela Tumukunde](https://www.linkedin.com/in/mandela-tumukunde-794755194/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
