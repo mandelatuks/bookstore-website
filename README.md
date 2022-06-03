@@ -1,102 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Getting Started with Create React App
 
-# Bookstore
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> One paragraph statement about the project.
+## Available Scripts
 
-![bookstore](https://user-images.githubusercontent.com/38649067/171750393-730d2f46-29e9-47ae-9b99-cfde960d640b.png)
+In the project directory, you can run:
 
-Additional description about the project and its features.
+### `npm start`
 
-## Built With
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- HTMl
-- CSS
-- JAVASCRIPT
-- REACT
-- REDUX
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## Technologies used
-- Github
-- GitFlow
-- Visual Studio Code
-- webpack
-- npm
-- netlify deployment
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Live Demo
+### `npm run build`
 
-[Live Demo Link](https://livedemo.com)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Getting Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-To get a local copy up and running follow these simple example steps.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Prerequisites
-- NodeJs
-- Web Browser
-- Internet connection
-- Code editor: Vscode or Sublime Text
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Install
+## Learn More
 
-**Clone the repository**
-```
-git clone https://github.com/mandelatuks/bookstore-website.git
-```
-**Install NPM packages**
-```
-npm install
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Run server**
-~~~
-npm start
-~~~
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-### Run tests
-```
-npm test
-```
-- Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://create-react-app.dev/docs/running-tests/) for more information.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-### Learn More
-You can learn more in the [Create React App documentation](https://reactjs.org/docs/getting-started.html).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-## Authors
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-👤 **Mandela T**
+### Advanced Configuration
 
-- GitHub: [@mandelatuks](https://github.com/mandelatuks)
-- Twitter: [@MandelaTm1](https://twitter.com/MandelaTm1)
-- LinkedIn: [@Mandela Tumukunde](https://www.linkedin.com/in/mandela-tumukunde-794755194/)
-## 🤝 Contributing
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Contributions, issues, and feature requests are welcome!
+### Deployment
 
-Feel free to check the [issues page](../../issues/).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Show your support
+### `npm run build` fails to minify
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
