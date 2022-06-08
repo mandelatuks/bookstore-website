@@ -7,6 +7,7 @@ export const checkStatus = () => ({
 });
 
 const checkReducer = (state = categoriesState, { type }) => {
+  console.log("", state.categories);
   switch (type) {
     case CHECK_STATUS:
       return { categories: ['Under construction...'] };
