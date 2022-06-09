@@ -61,7 +61,7 @@ const AddNewBook = () => {
         <option value="Fiction">Fiction</option>
         <option value="Crime">Crime</option>
       </select>
-      <button type="submit" onClick={submitBookToStore}>
+      <button type="submit" onSubmit={submitBookToStore}>
         Add Book
       </button>
     </form>
