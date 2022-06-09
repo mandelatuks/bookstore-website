@@ -1,10 +1,10 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
-import booksReducers from './Books/books';
+import booksReducer from './Books/books';
 import checkReducer from './categories/categories';
 
 const reducer = combineReducers({
-  booksReducers,
+  booksReducer,
   checkReducer,
 });
 
