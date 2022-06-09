@@ -1,17 +1,10 @@
 import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import { useSelector } from 'react-redux';
 import AddNewBook from './AddNewBook';
 import Books from './Books';
 
-const BookPage = () => {
-  const bookList = [
-    {
-      booktitle: ' Love island',
-      author: ' Mandela jeff',
-      category: 'fiction',
-      id: uuidv4(),
-    },
-  ];
+const BooksPage = () => {
+  const bookList = useSelector((state) => state.booksReducer);
   return (
     <div className="books">
       <Books bookList={bookList} />
@@ -20,4 +13,4 @@ const BookPage = () => {
   );
 };
 
-export default BookPage;
+export default BooksPage;
