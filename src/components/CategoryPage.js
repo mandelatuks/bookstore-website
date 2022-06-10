@@ -6,7 +6,7 @@ const CategoryPage = () => {
   const categories = useSelector((state) => state.checkReducer.categories);
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="underContruction">
       <button type="button" onClick={() => dispatch(checkStatus())}>
         Check status
       </button>
