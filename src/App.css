@@ -119,3 +119,157 @@ body {
 }
 
 
+.navigation > ul > li > a {
+  text-decoration: none;
+}
+
+.add-book {
+  justify-content: space-between;
+}
+
+.navigation ul > *:hover {
+  cursor: pointer;
+}
+
+.navigation > ul > li:nth-child(2) a {
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.navigation > ul > li:nth-child(3) a {
+  opacity: 0.5;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  color: #121212;
+}
+
+.navigation > ul > li:nth-child(1) h1 a {
+  font-size: 1.875rem;
+  color: var(--main-acent-color);
+  text-decoration: none;
+}
+
+.category {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+  margin: 0;
+}
+
+.title {
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: #121212;
+  margin: 0;
+}
+
+.Author {
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  margin: 0 0 1rem 0;
+}
+
+.firsCol-btns button {
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  background: transparent;
+  border: none;
+  color: #4386bf;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.firsCol-btns button:last-child {
+  border: none;
+}
+
+.firsCol-btns button:first-child {
+  padding-left: 0;
+}
+
+.user-profile-wrapper {
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.add-book-section {
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.books {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hr {
+  background: #e8e8e8;
+  height: 1px;
+  margin: 35px 0 15px 0;
+}
+
+.add-book-section h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+:is(input, select) {
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  padding: 12px;
+  width: 55%;
+}
+
+:is(input, select):focus {
+  outline: 3px solid #0290ff;
+}
+
+select {
+  width: 20% !important;
+}
+
+.add-book-section > .add-book > button {
+  font-size: 0.813rem;
+  font-weight: 300;
+  border: none;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background: var(--main-acent-color);
+  padding: 10px;
+  width: 17%;
+}
+
+option:first-child {
+  color: #999;
+}
+
+.underContruction {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.underContruction h1 {
+  color: rgb(151, 52, 52);
+  padding: 1rem;
+  background: #fff;
+  border: #e8e8e8;
+  border-radius: 15px;
+  width: 40%;
+}
+
