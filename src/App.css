@@ -33,7 +33,89 @@ body {
   padding: 0;
 }
 
+.books-list-section {
+  margin: 0;
+  padding: 0;
+}
+
+.books-list-section > li > .secondCol {
+  align-items: center;
+  padding: 0;
+}
+
+.books-list-section > li {
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 10px 0;
+  padding: 1rem;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+}
+
 .navigation > ul > li {
   list-style: none;
   padding: 10px 2rem 10px 0;
 }
+
+.books-list-section li > .secondCol > li {
+  list-style: none;
+}
+
+.books-list-section li > .secondCol > li:nth-child(3) {
+  padding-left: 4rem;
+  padding-right: 5rem;
+  line-height: 7px;
+  border-left: 1px solid #e8e8e8;
+}
+
+.percentageVal {
+  margin: 0;
+  font-size: 2rem;
+  color: #121212;
+}
+
+.completed {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+.books-list-section li > .secondCol > li:nth-child(2) {
+  padding-right: 6rem;
+  padding-left: 0.5rem;
+}
+
+.lastCol {
+  font-family: 'RobotoSlab', sans-serif;
+}
+
+.lastCol .currChapter {
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #121212;
+}
+
+.lastCol .chapter {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.lastCol > button {
+  font-size: 0.813rem;
+  font-weight: 300;
+  border: none;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background: var(--main-acent-color);
+  padding: 5px 12px;
+  width: max-content;
+}
+
+
