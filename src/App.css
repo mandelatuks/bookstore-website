@@ -118,7 +118,6 @@ body {
   width: max-content;
 }
 
-
 .navigation > ul > li > a {
   text-decoration: none;
 }
@@ -272,4 +271,3 @@ option:first-child {
   border-radius: 15px;
   width: 40%;
 }
-
