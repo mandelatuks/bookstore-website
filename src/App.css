@@ -1,4 +1,39 @@
-.active {
-  color: #080808;
-  font-weight: 600;
+:root {
+  --main-acent-color: #0290ff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.navigation_container {
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.navigation {
+  justify-content: space-between;
+  width: 80%;
+  height: 75px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.navigation ul {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation > ul > li {
+  list-style: none;
+  padding: 10px 2rem 10px 0;
 }
